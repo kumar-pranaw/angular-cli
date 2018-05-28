@@ -6,7 +6,8 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { DisplaydetailsComponent } from './displaydetails/displaydetails.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms'
     ServerComponent,
     ServersComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    DisplaydetailsComponent
   ],
   imports: [
     BrowserModule,
