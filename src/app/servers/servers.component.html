@@ -5,7 +5,7 @@
 
 <!-- Two way binding-->
 <input type="text" class="form-control" [(ngModel)]="serverName">
-<h5>{{serverName}}</h5>
+
 <button class="btn btn-primary" [disabled]="!allowNewServer" (click)="onCreateServer()">Add Server</button>
 <p [innerText]="allowNewServer"></p>
 
