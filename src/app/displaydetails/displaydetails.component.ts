@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DisplaydetailsComponent implements OnInit {
   showSecret= false;
+  newName='hello';
   log=[];
   constructor() { }
 
